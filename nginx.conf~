@@ -36,7 +36,7 @@ http {
     #gzip  on;
 
     server {
-        listen       80;
+        listen       3000;
         server_name  www.xiaozhu.jimitec.com;
         root /home/zgw/Xiaozhu_iphonelib/ValentinesAppServer/public;
         passenger_enabled on;
